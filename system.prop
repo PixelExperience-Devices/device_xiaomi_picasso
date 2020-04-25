@@ -10,6 +10,9 @@ vendor.display.idle_time=1100
 qemu.sf.lcd_density=440
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # IMS
 persist.dbg.vt_avail_ovr=0
 
