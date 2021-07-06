@@ -38,6 +38,8 @@ void load_gauguin() {
     property_override("ro.build.product", "gauguin");
     property_override("ro.product.device", "gauguin");
     property_override("ro.product.marketname", "Mi 10T Lite");
+    property_override("ro.build.description", "gauguin-user 11 11/RKQ1.200826.002 V12.5.1.0.RJSMIXM release-keys");
+    property_override("ro.build.fingerprint", "Xiaomi/gauguin/gauguin:11/RKQ1.200826.002/V12.5.1.0.RJSMIXM:user/release-keys");
 }
 
 void load_gauguininpro() {
@@ -45,6 +47,8 @@ void load_gauguininpro() {
     property_override("ro.build.product", "gauguininpro");
     property_override("ro.product.device", "gauguininpro");
     property_override("ro.product.marketname", "Mi 10i");
+    property_override("ro.build.description", "gauguininpro-user 11 11/RKQ1.200826.002 V12.0.2.0.RJSINXM release-keys");
+    property_override("ro.build.fingerprint", "Xiaomi/gauguininpro/gauguininpro:11/RKQ1.200826.002/V12.0.2.0.RJSINXM:user/release-keys");
 }
 
 void load_gauguinpro() {
@@ -53,6 +57,8 @@ void load_gauguinpro() {
     property_override("ro.product.device", "gauguinpro");
     property_override("ro.product.marketname", "Redmi Note 9 Pro");
     property_override("ro.product.brand", "Redmi");
+    property_override("ro.build.description", "gauguinpro-user 11 11/RKQ1.200826.002 V12.5.3.0.RJSCNXM release-keys");
+    property_override("ro.build.fingerprint", "Redmi/gauguinpro/gauguinpro:11/RKQ1.200826.002/V12.5.3.0.RJSCNXM:user/release-keys");
 }
 
 
