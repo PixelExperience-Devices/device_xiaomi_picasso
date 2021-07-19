@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := xiaomi
-DEVICE_PATH := device/xiaomi/gauguin
+DEVICE_PATH := device/xiaomi/picasso
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -28,7 +28,7 @@ TARGET_USES_64_BIT_BINDER := true
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gauguin,gauguininpro,gauguinpro
+TARGET_OTA_ASSERT_DEVICE := picasso
 
 # Audio
 AUDIO_FEATURE_ENABLED_AAC_ADTS_OFFLOAD := true
@@ -65,8 +65,8 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_gauguin
-TARGET_RECOVERY_DEVICE_MODULES := libinit_gauguin
+TARGET_INIT_VENDOR_LIB := libinit_picasso
+TARGET_RECOVERY_DEVICE_MODULES := libinit_picasso
 
 # Input
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 102
@@ -157,4 +157,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/framework_manifest.xml
 
 # Inherit from the proprietary version
--include vendor/xiaomi/gauguin/BoardConfigVendor.mk
+-include vendor/xiaomi/picasso/BoardConfigVendor.mk

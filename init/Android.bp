@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_gauguin",
+    name: "libinit_picasso",
     recovery_available: true,
-    srcs: ["init_gauguin.cpp"],
+    srcs: ["init_picasso.cpp"],
     whole_static_libs: ["libbase"],
     include_dirs: [
         "system/core/base/include",

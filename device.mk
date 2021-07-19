@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/gauguin/gauguin-vendor.mk)
+$(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti-gauguin
+    android.hardware.lights-service.qti-picasso
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -148,7 +148,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.gauguin
+    android.hardware.power-service.picasso
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true

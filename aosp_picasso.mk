@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from gauguin device
-$(call inherit-product, device/xiaomi/gauguin/device.mk)
+# Inherit from picasso device
+$(call inherit-product, device/xiaomi/picasso/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
@@ -17,8 +17,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_gauguin
-PRODUCT_DEVICE := gauguin
+PRODUCT_NAME := aosp_picasso
+PRODUCT_DEVICE := picasso
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 

@@ -34,32 +34,16 @@ void property_override(char const prop[], char const value[])
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
-void load_gauguin() {
-    property_override("ro.product.model", "M2007J17G");
-    property_override("ro.build.product", "gauguin");
-    property_override("ro.product.device", "gauguin");
-    property_override("ro.product.marketname", "Mi 10T Lite");
-    property_override("ro.build.description", "gauguin-user 11 11/RKQ1.200826.002 V12.5.1.0.RJSMIXM release-keys");
-    property_override("ro.build.fingerprint", "Xiaomi/gauguin/gauguin:11/RKQ1.200826.002/V12.5.1.0.RJSMIXM:user/release-keys");
+void load_picasso() {
+    property_override("ro.product.model", "Redmi K30 5G");
+    property_override("ro.build.product", "picasso");
+    property_override("ro.product.device", "picasso");
 }
 
-void load_gauguininpro() {
-    property_override("ro.product.model", "M2007J17I");
-    property_override("ro.build.product", "gauguininpro");
-    property_override("ro.product.device", "gauguininpro");
-    property_override("ro.product.marketname", "Mi 10i");
-    property_override("ro.build.description", "gauguininpro-user 11 11/RKQ1.200826.002 V12.0.2.0.RJSINXM release-keys");
-    property_override("ro.build.fingerprint", "Xiaomi/gauguininpro/gauguininpro:11/RKQ1.200826.002/V12.0.2.0.RJSINXM:user/release-keys");
-}
-
-void load_gauguinpro() {
-    property_override("ro.product.model", "M2007J17C");
-    property_override("ro.build.product", "gauguinpro");
-    property_override("ro.product.device", "gauguinpro");
-    property_override("ro.product.marketname", "Redmi Note 9 Pro");
-    property_override("ro.product.brand", "Redmi");
-    property_override("ro.build.description", "gauguinpro-user 11 11/RKQ1.200826.002 V12.5.3.0.RJSCNXM release-keys");
-    property_override("ro.build.fingerprint", "Redmi/gauguinpro/gauguinpro:11/RKQ1.200826.002/V12.5.3.0.RJSCNXM:user/release-keys");
+void load_picasso48m() {
+    property_override("ro.product.model", "Redmi K30i 5G");
+    property_override("ro.build.product", "picasso_48m");
+    property_override("ro.product.device", "picasso_48m");
 }
 
 void load_dalvik_properties() {
@@ -85,15 +69,13 @@ void load_dalvik_properties() {
 }
 
 void vendor_load_properties() {
-    std::string region = android::base::GetProperty("ro.boot.hwc", "");
+    std::string variant = android::base::GetProperty("ro.product.vendor.name", "");
 
-    if (region.find("CN") != std::string::npos) {
-        load_gauguinpro();
-    } else if (region.find("INDIA") != std::string::npos) {
-        load_gauguininpro();
-    } else if (region.find("GLOBAL") != std::string::npos) {
-        load_gauguin();
+    if (variant.find("picasso") != std::string::npos) {
+        load_picasso();
+    } else if (variant.find("picasso_48m") != std::string::npos) {
+        load_picasso48m();
     } else {
-        LOG(ERROR) << __func__ << ": unexcepted region!";
+        LOG(ERROR) << __func__ << ": unexcepted variant!";
     }
 }

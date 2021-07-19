@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_gauguin.mk
+    $(LOCAL_DIR)/aosp_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_gauguin-user \
-    aosp_gauguin-userdebug \
-    aosp_gauguin-eng
+    aosp_picasso-user \
+    aosp_picasso-userdebug \
+    aosp_picasso-eng

@@ -1,13 +1,13 @@
 [
     { 
-        "repository"   : "vendor_xiaomi_gauguin",
-        "target_path"  : "vendor/xiaomi/gauguin",
+        "repository"   : "vendor_xiaomi_picasso",
+        "target_path"  : "vendor/xiaomi/picasso",
         "branch"       : "eleven",
         "remote"       : "pixel-devices-blobs"
     },
     { 
-        "repository"   : "vendor_xiaomi_gauguin-vendor",
-        "target_path"  : "vendor/xiaomi/gauguin-vendor",
+        "repository"   : "vendor_xiaomi_picasso-vendor",
+        "target_path"  : "vendor/xiaomi/picasso-vendor",
         "branch"       : "eleven",
         "remote"       : "pixel-devices-blobs"
     }

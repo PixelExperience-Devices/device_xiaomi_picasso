@@ -36,12 +36,8 @@ static inline const char* BtmGetDefaultName()
     char product_device[92];
     property_get("ro.product.device", product_device, "");
 
-    if (strstr(product_device, "gauguinpro"))
-        return "Redmi Note 9 Pro";
-    if (strstr(product_device, "gauguininpro"))
-        return "Mi 10i";
-    if (strstr(product_device, "gauguin"))
-        return "Mi 10T Lite";
+    if (strstr(product_device, "picasso"))
+        return "Redmi K30 5G";
 
     // Fallback to ro.product.model
     return "";

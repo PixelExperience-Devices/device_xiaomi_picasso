@@ -16,8 +16,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.gauguin",
-    init_rc: ["android.hardware.light@2.0-service.gauguin.rc"],
+    name: "android.hardware.light@2.0-service.picasso",
+    init_rc: ["android.hardware.light@2.0-service.picasso.rc"],
     srcs: [
         "service.cpp",
          "Light.cpp",

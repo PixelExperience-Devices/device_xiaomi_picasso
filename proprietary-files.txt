@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from gauguinpro-user 11 RKQ1.200826.002 V12.5.3.0.RJSCNXM
+# All unpinned blobs below are extracted from picasso-user 11 RKQ1.200826.002 V12.5.3.0.RJSCNXM
 
 # ADSP Modules
 system_ext/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
@@ -73,13 +73,6 @@ system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so
 system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
-
-# Camera - from V12.0.5.0.RJSMIXM
-vendor/lib/camera/com.qti.sensormodule.sunny_imx682.bin:product/vendor_overlay/30/lib/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
-vendor/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|2e678e9ebaa8f1b7f0ba75e438bc11dd4cbe0f65
-vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin:product/vendor_overlay/30/lib64/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
-vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:product/vendor_overlay/30/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|2e678e9ebaa8f1b7f0ba75e438bc11dd4cbe0f65
-
 # Configstore
 -system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
 
