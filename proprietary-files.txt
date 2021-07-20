@@ -19,6 +19,12 @@ vendor/etc/qvaconfig.xml:product/vendor_overlay/30/etc/qvaconfig.xml|8b2f61bdb8d
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
+# Camera
+vendor/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin:product/vendor_overlay/30/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin
+vendor/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so:product/vendor_overlay/30/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so
+vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin
+vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin
+
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
