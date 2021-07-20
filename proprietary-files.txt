@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from picasso-user 11 RKQ1.200826.002 V12.5.3.0.RJSCNXM
+# All unpinned blobs below are extracted from picasso-user 11 RKQ1.200826.002 V12.5.2.0.RGICNXM
 
 # ADSP Modules
 system_ext/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
@@ -9,7 +9,7 @@ system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8150.so
 system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
 system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8350.so
 
-# Alexa - from V12.0.1.0.RJSINXM
+# Alexa - from gauguininpro-user 11 RKQ1.200826.002 V12.0.1.0.RJSINXM
 vendor/etc/qvaconfig.xml:product/vendor_overlay/30/etc/qvaconfig.xml|8b2f61bdb8dae4cdccc1d2a498553d504e114908
 
 # Alarm
@@ -19,7 +19,7 @@ vendor/etc/qvaconfig.xml:product/vendor_overlay/30/etc/qvaconfig.xml|8b2f61bdb8d
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
-# Camera
+# Camera - from picasso_48m-user 11 RKQ1.200826.002 V12.5.2.0.RGICMXM
 vendor/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin:product/vendor_overlay/30/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin
 vendor/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so:product/vendor_overlay/30/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so
 vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin
@@ -79,10 +79,11 @@ system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so
 system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
+
 # Configstore
 -system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
 
-# DRM - from from V12.0.5.0.RJSMIXM
+# DRM - from gauguin-user 11 RKQ1.200826.002 V12.0.5.0.RJSMIXM
 vendor/lib/liboemcrypto.so:product/vendor_overlay/30/lib/liboemcrypto.so|2c1525754f661b20bd83a9cd4ca6b56d78d88476
 vendor/lib64/liboemcrypto.so:product/vendor_overlay/30/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
 vendor/lib/libwvkeybox.so:product/vendor_overlay/30/lib/libwvkeybox.so|1d30d25fa4a9ec8c9f2bd41147da45724dbcf7de
@@ -157,7 +158,7 @@ system_ext/lib/libfm-hci.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 system_ext/lib/vendor.qti.hardware.fm@1.0.so
 
-# HotwordEnrollment - from V12.0.5.0.RJSMIXM
+# HotwordEnrollment - from gauguin-user 11 RKQ1.200826.002 V12.0.5.0.RJSMIXM
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|179246aed7e4df0a0506d524f3e80040bf77134e
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|b76f697c5ca97da3c5dcbe35df029ec7f3ff5766
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
@@ -238,7 +239,7 @@ system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.0.so
 system_ext/lib64/vendor.qti.hardware.perf@2.0.so
 
-# Permissions - from V12.0.5.0.RJSMIXM
+# Permissions - from gauguin-user 11 RKQ1.200826.002 V12.0.5.0.RJSMIXM
 vendor/etc/permissions/com.google.android.feature.PREMIER_TIER.xml:product/vendor_overlay/30/etc/permissions/com.google.android.feature.PREMIER_TIER.xml|0d00ca7050825759ba1f6ad7d3f029f08955b83a
 
 # Power-off charging daemon
