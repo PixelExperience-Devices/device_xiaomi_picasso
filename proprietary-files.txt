@@ -250,9 +250,6 @@ system_ext/lib64/vendor.qti.qspmhal@1.0.so
 vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib/soundfx/libvolumelistener.so|e6c1f1bfb7bd5cfb36131aaff0d4e8c74833865d
 vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so|1b16cd00fd2144e860f99c0869c2db1489c789a2
 
-# Soter
--app/SoterService/SoterService.apk
-
 # Telephony
 etc/permissions/privapp-permissions-qti.xml
 etc/sysconfig/qti_whitelist.xml
