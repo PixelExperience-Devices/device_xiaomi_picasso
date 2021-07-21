@@ -19,7 +19,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_picasso
 PRODUCT_DEVICE := picasso
-PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi K30 5G
+PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
