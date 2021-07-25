@@ -12,6 +12,21 @@
      limitations under the License.
 -->
 <resources>
+    <string-array name="device_refresh_rates">
+        <item>30 Hz</item>
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+        <item>90 Hz</item>
+        <item>120 Hz</item>
+    </string-array>
+    <string-array name="device_refresh_rates_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
     <!-- Values for Dirac headset pref -->
     <string-array name="dirac_headset_pref_entries" translatable="false">
         <item>@string/dirac_headset_default</item>
