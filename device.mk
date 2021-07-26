@@ -51,7 +51,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCam
+    Snap
 
 # A/B
 AB_OTA_UPDATER := false
