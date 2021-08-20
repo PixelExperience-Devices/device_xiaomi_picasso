@@ -4,11 +4,6 @@
         "target_path"  : "vendor/xiaomi/picasso",
         "branch"       : "eleven",
         "remote"       : "pixel-devices-blobs"
-    },
-    { 
-        "repository"   : "vendor_xiaomi_picasso-vendor",
-        "target_path"  : "vendor/xiaomi/picasso-vendor",
-        "branch"       : "eleven",
-        "remote"       : "pixel-devices-blobs"
     }
 ]
+
