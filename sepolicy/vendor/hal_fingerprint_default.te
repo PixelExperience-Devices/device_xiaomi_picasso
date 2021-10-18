@@ -4,6 +4,7 @@ binder_call(hal_fingerprint_default, vendor_hal_perf_default)
 
 allow hal_fingerprint_default fingerprint_data_file:dir create_dir_perms;
 allow hal_fingerprint_default fingerprint_data_file:file create_file_perms;
+allow hal_fingerprint_default hal_fingerprint_hwservice:hwservice_manager find;
 
 allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
 
