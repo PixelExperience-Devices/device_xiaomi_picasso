@@ -19,12 +19,6 @@ vendor/etc/qvaconfig.xml:product/vendor_overlay/30/etc/qvaconfig.xml|8b2f61bdb8d
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
-# Camera - from picasso_48m-user 11 RKQ1.200826.002 V12.5.2.0.RGICMXM
-vendor/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin:product/vendor_overlay/30/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin|feef516b588597109348a07aa75c8d677f1d4a3c
-vendor/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so:product/vendor_overlay/30/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so|b5122315bbed0c1d06fd64eb2642c9dc879f99d8
-vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin|e40293c5352edb08f5d64ac7e241b798a9a6892b
-vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin:product/vendor_overlay/30/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin|63df7469e0bc2927869623caaff7770b3eb4d16e
-
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
