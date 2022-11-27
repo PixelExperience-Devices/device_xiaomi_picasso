@@ -428,7 +428,7 @@ vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|aabcddc3af932023f64d51196a97dc11cf8ac3b2
 
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
