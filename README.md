@@ -1,8 +1,8 @@
 
- Device configuration for Redmi K30 5G
+ Device configuration for Redmi K30/K30i 5G
  =========================================
 
- The Redmi K30 5G (codenamed _"picasso"_) is a smartphone from Xiaomi.
+ The Redmi K30/K30i 5G (codenamed _"picasso/picasso_48m"_) is a smartphone from Xiaomi.
 
  ## Device specifications
 
@@ -16,9 +16,10 @@
  Storage | 64/128/256 GB
  Battery | Li-Po 4500 mAh, non-removable
  Display | IPS LCD, 120Hz, HDR10
- Camera  | 64 MP, f/1.9, 26mm (wide), 1/1.72", 0.8µm, PDAF, 8 MP, f/2.2, 13mm (ultrawide), 1/4.0", 1.12µm, 5 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)
+ Camera (K30 5G) | 64 MP, f/1.9, 26mm (wide), 1/1.72", 0.8µm, PDAF, 8 MP, f/2.2, 13mm (ultrawide), 1/4.0", 1.12µm, 5 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)
+ Camera (K30i 5G) | 	48 MP, f/1.9, (wide), 1/2.0", 0.8µm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)
 
  ## Device picture
 
- ![Redmi K30 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-k30-5g-2.jpg "Redmi K30 5G")
+ ![Redmi K30 5G](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575882053.33827103.jpg "Redmi K30 5G")
  

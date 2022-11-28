@@ -19,9 +19,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := picasso
-
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
@@ -186,6 +183,3 @@ WIFI_DRIVER_STATE_ON := "ON"
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-
-# Inherit from the proprietary version
-include vendor/xiaomi/picasso/BoardConfigVendor.mk
