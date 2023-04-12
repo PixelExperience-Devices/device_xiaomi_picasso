@@ -415,9 +415,6 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|aabcddc3af932023f64d51196a97dc11cf8ac3b2
 
-# MIUI Camrea - Patched
-lib64/libcameraservice.so|69639b4d2eaa00e27388221299322803a4bf3e5b
-
 # MIUI Camera
 -priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|3dd397c14c9b6f86a3c69465e1bdcef8ca2af331
 lib/libcamera_algoup_jni.xiaomi.so
