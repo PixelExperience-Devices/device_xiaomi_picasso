@@ -602,7 +602,6 @@ system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
-system_ext/lib64/vendor.qti.diaghal@1.0.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
@@ -1102,12 +1101,8 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # RIL
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
-system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
@@ -1193,19 +1188,6 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 # RIL (IMS)
--system_ext/priv-app/ims/ims.apk
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
-system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar
-system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar
-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
-system_ext/lib64/lib-imsvideocodec.so
-system_ext/lib64/lib-imsvt.so
-system_ext/lib64/lib-imsvtextutils.so
-system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libdiag_system.so
-system_ext/lib64/libimscamera_jni.so
-system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -1253,10 +1235,32 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
+# RIL - from LA.QSSI.13.0.r1-08600-qssi.0
+system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9ef9e77f209b7d699d0b37463acfb19faf46d6d4
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|231862ec524e39c96b8b4575f27060caa36ce36b
+-system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
 
-# RIL (IMS) - from cupid-user-13-TKQ1.220630.001-V13.0.4.0.TLCMIXM-release-keys
--system_ext/app/ImsRcsService/ImsRcsService.apk|93877b05f97ce9691f344b50512461b67a981b95
-system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|e01800d96b0db524836856410d3dd0b9352ec46c
+# RIL (IMS) - from LA.QSSI.13.0.r1-08600-qssi.0
+system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|7ce9e6ccb5026b0aa87b0eb94a20448e2d4c481c
+system_ext/lib64/lib-imsvideocodec.so|eb70a60fc143ab65718fa3333c845490120c9a23
+system_ext/lib64/lib-imsvt.so|f20eb6d72027c36c05eb8ad9fdc2fe7727acbabf
+system_ext/lib64/lib-imsvtextutils.so|1dfb5640cd23a92e7ca55a84118b2966653aebc7
+system_ext/lib64/lib-imsvtutils.so|3ed0180cee3849f63fb7bbbd68a3767693aba2dc
+system_ext/lib64/libdiag_system.so|87e97741ac6a05cad302e4c465c801bb3d9b298b
+system_ext/lib64/libimscamera_jni.so|a21333fa8f338acaa4996f74a0e29145f77d5299
+system_ext/lib64/libimsmedia_jni.so|e9e9a28e266f8e19f2a01c0bfaaf19b39ac1fdfb
+system_ext/lib64/vendor.qti.diaghal@1.0.so|ffab1580dbc117104f21208c3940e4f14c2d1b37
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
+-system_ext/app/ImsRcsService/ImsRcsService.apk|17ea49a0462c5e88ed1d0913a3156e87b5568207
+-system_ext/priv-app/ims/ims.apk|4ebf655d48f9924d7a00e993254044c81c497124
+-system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|e01800d96b0db524836856410d3dd0b9352ec46c
+-system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar|ec58d15adf1930c4dcfb59e209a4bcf8d230a756
+-system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar|3218cd7bba1dd0e0a140d93d252b96b8e2c81ae5
+-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|ae7015efe55d17b1caf0da0c2247dac6cfaaa272
+-system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|137f296405fd5f8c036c511f1d186e7178c5d57f
+-system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|70dbc40c581103970402959342ea250b6a1fb84b
 
 # Secure Element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
