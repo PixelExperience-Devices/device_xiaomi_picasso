@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/google/interfaces
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
