@@ -155,10 +155,6 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
-# Bluetooth (aptX) - from sunfish RQ1A.201205.008
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-
 # Camera
 vendor/etc/camera/102_SummerDay.png
 vendor/etc/camera/103_Fantasy.png
@@ -815,7 +811,9 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
+
+# IOP - from thyme V14.0.2.0.TGACNXM
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|e61dffb39ef9e01312dd2b09e527909b35d8d4c0
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
 # IPA Firmware
@@ -844,11 +842,13 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
 # Limits HAL
-system_ext/lib64/vendor.qti.hardware.limits@1.0.so
 system_ext/lib64/vendor.qti.hardware.limits@1.1.so
-vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
-vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
+
+# Limits HAL - from thyme V14.0.2.0.TGACNXM
+vendor/bin/hw/vendor.qti.hardware.limits@1.0-service|5bfe6010737463c4793d13c0099820c04b7dd660
+vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc|77c989d8d59b99716b900e96d94a4aa9bcab6aa6
+system_ext/lib64/vendor.qti.hardware.limits@1.0.so|71fb60e9c37ca703de4eac6a899566c294c1b2cb
+-vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
 vendor/lib64/vendor.qti.hardware.limits@1.0.so
 
 # Listen
