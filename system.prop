@@ -15,6 +15,7 @@ dalvik.vm.dex2oat64.enabled=true
 
 # IMS
 persist.dbg.vt_avail_ovr=0
+persist.dbg.wfc_avail_ovr=1
 
 # IOP
 vendor.iop.enable_prefetch_ofr=1
