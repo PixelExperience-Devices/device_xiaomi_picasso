@@ -29,4 +29,7 @@
 
     <!-- Whether to show notch mode settings in display settings -->
     <bool name="config_show_notch_mode_settings">true</bool>
+
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
 </resources>
