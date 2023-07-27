@@ -393,13 +393,7 @@ PRODUCT_PACKAGES += \
 
 # Perf
 PRODUCT_PACKAGES += \
-    libpsi.vendor \
-    libtflite
-
-# Perf Jars
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
+    vendor.qti.hardware.perf@2.2.vendor
 
 # Power
 PRODUCT_PACKAGES += \
@@ -472,9 +466,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0 \
-    android.hardware.thermal@2.0-service.qti \
-    android.hardware.thermal@2.0.vendor
+    android.hardware.thermal@2.0-service.qti
 
 # Touchscreen
 PRODUCT_PACKAGES += \
