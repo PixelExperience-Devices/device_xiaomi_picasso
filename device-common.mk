@@ -266,15 +266,6 @@ PRODUCT_PACKAGES += \
     init.xiaomi.rc \
     ueventd.qcom.rc
 
-# ih8sn
-PRODUCT_PACKAGES += \
-    ih8sn
-
-PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
-    system/bin/ih8sn \
-    system/etc/ih8sn.conf \
-    system/etc/init/ih8sn.rc
-
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
