@@ -801,7 +801,7 @@ vendor/firmware/a650_zap.elf
 vendor/firmware/a650_zap.mdt
 
 # IFAA
--vendor/app/IFAAService/IFAAService.apk:vendor/app/IFAAService/IFAAServicePicasso.apk
+-vendor/app/IFAAService/IFAAService.apk:vendor/app/IFAAServicePicasso/IFAAServicePicasso.apk
 
 # IOP
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
